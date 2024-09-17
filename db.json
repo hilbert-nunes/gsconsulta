@@ -1,0 +1,60 @@
+{
+    "notas": [
+        {
+            "loja_emit": "TDC",
+            "loja_destinat": "PAR",
+            "nota_fiscal": "45965",
+            "data_de_emissao": "2023-09-15",
+            "data_exp": "2023-09-16",
+            "data_receb": "2023-09-17",
+            "mdf": "1234",
+            "motorista": "John Doe",
+            "ci": "CI12345",
+            "emissor": "Janilson",
+            "recebedor": "Matheus",
+            "serie": "C",
+            "valor_total": "1000",
+            "itens": [
+                {
+                    "almox": "01",
+                    "grupo": "Eletrônicos",
+                    "nce": "123456",
+                    "num_serie": "85985",
+                    "inventario": "945875",
+                    "descricao": "Notebook",
+                    "cor": "Preto",
+                    "descricao_cor": "Preto fosco",
+                    "valor_unit": "2000"
+                }
+            ]
+        },
+        {
+            "loja_emit": "TDC",
+            "loja_destinat": "PIC",
+            "nota_fiscal": "45965",
+            "data_de_emissao": "2023-09-15",
+            "data_exp": "2023-09-16",
+            "data_receb": "2023-09-17",
+            "mdf": "1234",
+            "motorista": "John Doe",
+            "ci": "CI12345",
+            "emissor": "Janilson",
+            "recebedor": "Matheus",
+            "serie": "C",
+            "valor_total": "1000",
+            "itens": [
+                {
+                    "almox": "01",
+                    "grupo": "Eletrônicos",
+                    "nce": "123456",
+                    "num_serie": "85986",
+                    "inventario": "945877",
+                    "descricao": "Notebook",
+                    "cor": "Preto",
+                    "descricao_cor": "Preto fosco",
+                    "valor_unit": "2000"
+                }
+            ]
+        }
+    ]
+}
