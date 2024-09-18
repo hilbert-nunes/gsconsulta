@@ -55,9 +55,8 @@ export default function InventorySearch() {
 
     return (
         <>
-            <Header />
-            <div className="flex items-center justify-center h-screen">
-                <Card>
+            <div className="flex flex-grow p-4 max-w-lg mx-auto items-center justify-center h-auto max-h-full overflow-y-auto">
+                <Card className=''>
                     <CardHeader>
                         <CardTitle>Buscar NF por Número de Série ou Inventário</CardTitle>
                     </CardHeader>
@@ -90,7 +89,7 @@ export default function InventorySearch() {
                         )}
 
                         {notaFiscal && (
-                            <div className="mt-4 space-y-4">
+                            <div className=" mt-4 space-y-4 m-5">
                                 <Card>
                                     <CardHeader>
                                         <CardTitle>Informação do item:</CardTitle>
