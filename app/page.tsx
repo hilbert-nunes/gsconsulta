@@ -1,8 +1,11 @@
-import Image from "next/image";
 import Index from "./pages/index"
+import Footer from "@/components/_components/footer";
 
 export default function Home() {
   return (
-    <Index />
-  );
+    <div className="flex flex-col min-h-screen">
+      <Index />
+      <Footer />
+    </div>
+  )
 }
